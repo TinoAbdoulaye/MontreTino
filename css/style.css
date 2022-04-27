@@ -1,0 +1,336 @@
+
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+
+*{
+font-family: 'Montserrat';
+}
+
+body{
+    margin: 0 auto;
+}
+
+header.header{
+    display: flex;
+    align-items: center;
+}
+
+header.header img {
+    width: 150px;
+}
+section.top-page {
+    background: url('../image 2/bg.jpg');
+    background-size: cover;
+    height: 80vh;
+    padding: 25px;
+}
+
+/* page de bienvenue (landing page) */
+
+.landing-page {
+    padding: 20px 50px;
+}
+
+.big-title {
+color: lightskyblue;
+font-size: 45px;
+font-family: 'Abril FatFace', cursive;
+font-weight: 200;
+
+}
+
+
+
+/* menu de navigation */
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 700px;
+    margin-left: 30px;
+}
+
+nav.nav li {
+    color: lightskyblue;
+}
+
+/* services */
+
+.services {
+    display:  flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.delivery-icon {
+    font-size: 50px;
+    color: #0406a1;
+}
+
+.service-details {
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+}
+
+/* best sells */
+
+.section-title {
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    position: relative;
+
+}
+
+.section-title::before {
+    content: "";
+    position: absolute;
+    background-color: #0406a1;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
+.best-plants {
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.plant-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.plant1 {
+    background-image: url(../image\ 2/nos_meilleures_ventes/1.jpg);
+}
+
+.plant2 {
+    background-image: url(../image\ 2/nos_meilleures_ventes/2.jpg);
+}
+
+.plant3 {
+    background-image: url(../image\ 2/nos_meilleures_ventes/3.jpg);
+}
+
+.plant4 {
+    background-image: url(../image\ 2/nos_meilleures_ventes/4.jpg);
+}
+
+.plant-details {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #FFFFFFDF;
+    padding: 5px 20px;
+}
+.plant-name {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 3px;
+}
+
+.plant-price {
+    color: #0406a1;
+    line-height: 3px;
+    font-size: 14px;
+    font-weight: 800;
+
+}
+
+/* nos produits */
+
+.section-title::before {
+    content: "";
+    position: absolute;
+    background-color: #0406a1;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
+.section-title {
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    position: relative;
+
+}
+
+
+.no-grid {
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+}
+
+.best-produits {
+
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+
+.produits5 {
+    background-image: url(../image\ 2/nos_produits/5.jpg);
+}
+
+.produits6 {
+    background-image: url(../image\ 2/nos_produits/6.jpg);
+}
+
+.produits7 {
+    background-image: url(../image\ 2/nos_produits/7.jpg);
+}
+
+.produits8 {
+    background-image: url(../image\ 2/nos_produits/8.jpg);
+}
+
+
+.produits-details {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #FFFFFFDF;
+    padding: 5px 20px;
+}
+
+.produits-name {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 3px;
+}
+
+.produits-box {
+    
+    background-size: cover;
+    flex-basis: 25%;
+    
+    }
+
+/* pied de page */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+    font-weight: 600;
+}
+
+footer a.cgv {
+    text-decoration: none;
+    color: black;
+}
+
+/* soldes */
+
+.section-title {
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    position: relative;
+}
+
+.bests-items {
+    margin: 100px;
+    }
+
+    .no-grid {
+        min-width: 350px;
+        height: 500px;
+        flex: 1;
+    }
+
+    .best-soldes {
+        background-size: cover;
+        background-position: center;
+        min-height: 500px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+.soldes9{
+    background-image: url(../image\ 2/soldes/9.webp);
+}
+
+.soldes10{
+    background-image: url(../image\ 2/soldes/10.jpg);
+}
+
+.soldes11{
+    background-image: url(../image\ 2/soldes/11.jpg);
+}
+
+.soldes12{
+    background-image: url(../image\ 2/soldes/12.png);
+}
+
+
+.soldes-details{
+    position: absolute;
+    background-color: #FFFFFFDF;
+    bottom: 100
+}
+
+.burger-page {
+    width: 35px;
+    height: 30px;
+    position: relative;
+}
+
+.burger {   
+    /* display: none;  */
+    height: 4px;
+    width: 30px;
+    background: blue;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 2px;
+}
+
+@media screen and (max-width: 500px) {
+    .burger {   
+        display: block;
+        height: 4px;
+        width: 30px;
+        background: blue;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        margin-bottom: 2px;
+    
+    }
+    nav.nav {
+        display: block;
+        list-style: none;
+        margin-left: 30px;
+    }
+    
+}
+
+   
+
